@@ -92,8 +92,33 @@ footer {
     bottom: 0;
 }
 
+h3 {
+    padding-left: 200px;
+    font-size: 20px;
+    color: #1a0dab;
+}
+
+.toph4 {
+    margin-top: 170px;
+    color: black;
+    text-decoration: none;
+}
+
+.toph4:hover {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h4 {
+    padding-left: 200px;
+}
+
+
+
 p {
     width: 578px;
     height: auto;
+    padding-bottom: 0px;
+    margin-left: 200px;
     padding-bottom: 50px;
 }
