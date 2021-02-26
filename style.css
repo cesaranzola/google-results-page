@@ -102,7 +102,7 @@ a:hover {
     width: 24px;
     height: 24px;
     position: absolute;
-    top: 7px;
+    top: -2px;
     right: 103px;
     fill: rgb(95, 95, 95);
 }
@@ -152,7 +152,7 @@ a:hover {
 
 
 h3 {
-    padding-left: 200px;
+    padding-left: 190px;
     font-size: 20px;
     color: #1a0dab;
 }
@@ -162,6 +162,7 @@ h3 {
     color: black;
     text-decoration: none;
     color: #323335; 
+    margin-bottom: 9px;
 }
 
 .toph4:hover {
@@ -170,28 +171,65 @@ h3 {
 }
 
 h4 {
-    padding-left: 200px;
+    padding-left: 190px;
     color: #323335;
+    margin-bottom: 9px;
 }
 
 
 p {
     width: 578px;
     height: auto;
-    padding-bottom: 0px;
-    margin-left: 200px;
-    padding-bottom: 50px;
-    color: #4d5156;
+    margin-left: 190px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    color: #2f3031;
+    line-height: 1.5em;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
-
 
 .bottomp {
     margin-top: 7px;
     width: 1200px;
 }
 
+
+.topbuttondiv {
+    margin-left: 175px;
+    margin-top: 10px;
+}
+
+.topbuttons {
+    /* display: inline-block; */
+    list-style-type: none;
+    text-decoration: none;
+}
+
+svg {
+    width: 16px;
+    height: 16px;
+    padding-top: 10px;
+    padding-right: 3px;
+    padding-left: 15px;
+}
+
+.special2b {
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+/*=================FOOTER ELEMENTS START================= */
+
 .loc1 {
     font-weight: bold;
+    color: rgb(95, 95, 95);
 }
 
 .loc2 {
@@ -216,12 +254,12 @@ footer {
 }
 
 .location {
-    margin-left: 200px;
+    margin-left: 190px;
     padding-top: 5px;
 }
 
 .buttondiv {
-    margin-left: 200px;
+    margin-left: 190px;
     margin-top: 20px;
 }
 
