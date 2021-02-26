@@ -102,7 +102,7 @@ a:hover {
     width: 24px;
     height: 24px;
     position: absolute;
-    top: -2px;
+    top: -7px;
     right: 103px;
     fill: rgb(95, 95, 95);
 }
@@ -137,6 +137,7 @@ a:hover {
     border: none;
     height: 1px;
     background-color: rgb(236, 236, 236);
+    margin-top: 15px;
     
 }
 
@@ -209,9 +210,10 @@ p {
 svg {
     width: 16px;
     height: 16px;
-    /* padding-top: 10px; */
     padding-right: 3px;
     padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: -15px;
 }
 
 .special2b {
@@ -228,9 +230,6 @@ h5 {
 
 /*================ASK START==============*/
 
-.asktitle {
-   
-}
 
 .ask {
     color: rgb(82, 82, 82);
@@ -243,14 +242,45 @@ h5 {
     margin-right: 888px;
     border: none;
     height: 1px;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(228, 228, 228);
 }
 
 .finalline {
     margin-bottom: 50px;
 }
 
-/*================ASK END==============/
+/*================ASK END==============*/
+
+
+
+
+/*================RELATED SEARCHES START==============*/
+
+#related {
+    font-size: 23px;
+    display: inline-block;
+    margin-bottom: 2px;
+    
+}
+
+.tresbutton {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+/*================RELATED SEARCHES END==============*/
+
+
+
+
+
+
+
+
 
 
 
