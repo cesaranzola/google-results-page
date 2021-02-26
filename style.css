@@ -243,6 +243,8 @@ h5 {
     border: none;
     height: 1px;
     background-color: rgb(228, 228, 228);
+    clear: both;
+    margin-left: 190px;
 }
 
 .finalline {
@@ -276,6 +278,64 @@ h5 {
 
 
 
+/*================THREE LOGOS START==============*/
+
+/* .arrow {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+} */
+
+#arrow1 {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    margin-left: 400px;
+
+}
+
+#arrow2 {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    margin-left: 305px;
+}
+
+#arrow3 {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    margin-left: 348px;
+}
+
+.logosrelated {
+    width: 50px;
+    height: 50px;
+    margin-left: 189px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+#website {
+    all: unset;
+    font-size: 18px;
+}
+
+
+
+/* .arrow {
+    border: 1px solid black;
+    display: inline-flex;
+    margin: 0;
+} */
+
+
+
+
+
+/*================THREE LOGOS END==============*/
 
 
 
@@ -315,6 +375,7 @@ footer {
     position: static;
     bottom: 0;
     border: 0.5px solid rgb(139, 139, 139);
+    clear: both;
 }
 
 .location {
