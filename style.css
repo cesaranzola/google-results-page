@@ -426,7 +426,7 @@ h5 {
 /*================GOOGLE LONG START==============*/
 
 .googlelong {
-    font-size: 33px;
+    font-size: 38px;
     margin-left: 200px;
 }
 
@@ -462,15 +462,46 @@ h5 {
 }
 
 
-
-
-
-
-
-
+#arrowfake {
+    all: unset;
+    color: #4285F4;
+    font-size: 20px;
+    margin-left: 9px;
+    margin-bottom: -10px;
+}
 
 /*================GOOGLE LONG END==============*/
 
+
+
+
+/*================NUMBER LINKS==============*/
+
+.containernlinks {
+    margin-left: 425px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.linknumbers {
+    color: grey;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 8.5px;
+}
+
+.linknumbers:hover {
+    text-decoration: underline;
+}
+
+#nextbutton {
+    color: grey;
+    margin-left: 50px;
+}
+
+
+
+/*================NUMBER LINKS==============*/
 
 
 
