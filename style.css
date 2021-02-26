@@ -424,6 +424,51 @@ h5 {
 
 
 /*================GOOGLE LONG START==============*/
+
+.googlelong {
+    font-size: 33px;
+    margin-left: 200px;
+}
+
+#givemeo {
+    color: #F4B400;
+}
+
+#givemeored {
+    color:#DB4437;
+    margin-left: -8px;
+    margin-right: -8px;   
+}
+
+#givegf {
+    color: #4285F4;
+}
+
+
+#givemelt {
+    color: #4285F4;
+    margin-left: -8px;
+}
+
+
+#greenl {
+    color: #0F9D58;
+    margin-left: -8px;
+}
+
+#laste {
+    color: #DB4437;
+    margin-left: -8px;
+}
+
+
+
+
+
+
+
+
+
 /*================GOOGLE LONG END==============*/
 
 
