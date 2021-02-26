@@ -126,7 +126,24 @@ a:hover {
 .signcolor {
     color: white;
     text-decoration: none;
+    
 }
+
+
+/*==========HORIZONTAL LINE START=========*/
+
+.linedivider {
+    
+    border: none;
+    height: 1px;
+    background-color: rgb(236, 236, 236);
+    
+}
+
+/*==========HORIZONTAL LINE ENDD=========*/
+
+
+
 
 /* a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
