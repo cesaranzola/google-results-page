@@ -307,6 +307,16 @@ h5 {
     margin-bottom: 50px;
 }
 
+
+#arrowask1 {
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 30px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+}
+
 /*================ASK END==============*/
 
 
@@ -324,10 +334,11 @@ h5 {
 .tresbutton {
     width: 18px;
     height: 18px;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    padding-left: 16px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    opacity: 0.6;
+ 
 }
 
 /*================RELATED SEARCHES END==============*/
@@ -336,47 +347,57 @@ h5 {
 
 /*================THREE LOGOS START==============*/
 
-/* .arrow {
-    display: inline-flex;
-    width: 20px;
-    height: 20px;
-} */
+
 
 #arrow1 {
-    display: inline-flex;
+    all: unset;
     width: 20px;
     height: 20px;
-    margin-left: 400px;
-
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 13px;
 }
 
 #arrow2 {
-    display: inline-flex;
+    all: unset;
     width: 20px;
     height: 20px;
-    margin-left: 305px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 13px;
 }
 
 #arrow3 {
-    display: inline-flex;
+    all: unset;
     width: 20px;
     height: 20px;
-    margin-left: 348px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 13px;
 }
 
 .logosrelated {
     width: 50px;
     height: 50px;
     margin-left: 189px;
-    float: left;
     margin-right: 16px;
-    margin-top: 3px;
-    margin-bottom: 6px;
+    float: left;   
 }
 
 #website {
-    all: unset;
     font-size: 18px;
+    margin-top: 25px;
+}
+
+#websitedevs {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+
+#webtools {
+    font-size: 18px;
+    margin-top: 25px;
 }
 
 /*================THREE LOGOS END==============*/
