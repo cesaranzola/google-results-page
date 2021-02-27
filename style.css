@@ -45,6 +45,25 @@ table {
 }
 
 
+/*==========STICKY START=========*/
+ /* Style the header */
+
+ .sticky {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; 
+    background-color: white;
+    height: 80px;
+    box-shadow: grey;
+    border-bottom: grey;
+    z-index: 2;
+}
+
+
+/*==========STICKY END=========*/
+
+
+
 /*==========LOGO START=========*/
 
 .logo {
@@ -102,12 +121,12 @@ input:hover {
     opacity: 0.1;
 }
 
-#glassblue {
+.glassblue {
     position: absolute;
-    top: 33px;
-    margin-left: 810px;
-    width: 24px;
-    height: 24px;
+    top: 36px;
+    margin-left: 814px;
+    width: 16px;
+    height: 16px;
     color: #4285F4;
 
 }
@@ -278,6 +297,63 @@ h5 {
     font-size: 15.5px;
 }
 
+.arrowlink {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+}
+
+#arrowone {
+    margin-top: 27px;
+    margin-left: 460px;
+}
+
+#arrowtwo {
+    margin-top: 3.5px;
+    margin-left: 460px;
+}
+
+#arrowthree {
+    margin-left: 529px;
+}
+
+#arrowfour {
+    margin-top: 3.5px;
+    margin-left: 305px;
+}
+
+#arrowfive {
+    margin-top: 3.5px;
+    margin-left: 346px;
+}
+
+#arrowsix {
+    margin-top: 3.5px;
+    margin-left: 432px;
+}
+
+#arrowseven {
+    margin-top: 3.5px;
+    margin-left: 346px;
+}
+
+#arroweigth {
+    margin-top: 3.5px;
+    margin-left: 492px;
+}
+
+#arrownine {
+    margin-top: 3.5px;
+    margin-left: 543px;
+}
+
+#arrowten {
+    margin-top: 3.5px;
+    margin-left: 340px;
+}
+
+
+
 
 /*==========HEADINGS & PARAGRAPHS END=========*/
 
@@ -315,7 +391,6 @@ h5 {
 
 .finalline {
     margin-bottom: 50px;
-    width: ;
 }
 
 .finallinelogo {
@@ -368,8 +443,9 @@ h5 {
     margin-top: 5px;
     margin-left: 15px;
     opacity: 0.6;
- 
 }
+
+
 
 /*================RELATED SEARCHES END==============*/
 
@@ -564,7 +640,7 @@ h5 {
 #arrowfake {
     all: unset;
     color: #4285F4;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 9px;
     margin-bottom: -10px;
 }
@@ -594,6 +670,12 @@ h5 {
 #nextbutton {
     color: #4285F4;
     margin-left: 50px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#nextbutton:hover {
+    text-decoration: underline;
 }
 
 .linkblue {
@@ -603,6 +685,16 @@ h5 {
 
 
 
+/*================BULLETPOINT START==============*/
+
+#bulletpoint {
+    position: absolute;
+    margin-left: 184px;
+    width: 25px;
+    height: 25px;
+    
+}
+/*================BULLETPOINT END==============*/
 
 /*=================FOOTER ELEMENTS START================= */
 .loc1 {
@@ -636,8 +728,8 @@ footer {
 }
 
 .location {
-    margin-left: 190px;
-    padding-top: 5px;
+    margin-left: 210px;
+    padding-top: 6px;
 }
 
 .buttondiv {
@@ -657,4 +749,7 @@ footer {
     text-decoration: none;
     color: rgb(71, 71, 71);
 }
+
+
+
 /*=================FOOTER ELEMENTS END================= */

@@ -9,32 +9,33 @@
     <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.google.com"> 
 </head>
 <body>
-    <nav class="headernav">
 
-        <div class="logo">
-            <img src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png" alt="Googlelogo">
+  
+
+        <nav class="headernav">
+            <div class="logo">
+                <img src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png" alt="Googlelogo">
+            </div>
+    
+            <div class="searchband">
+                <form action="/form/submit" method="GET">
+                    <input  class="search"  type="text" name="text" placeholder="">
+                    <svg class="equis"  focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+                    <hr class="verticallinesearch" size="30">
+                    <img  class="glassblue" src="images/googleofficialglassblue.png" alt="">
+                </form>
+                </div>    
+    
+            <div class="toprightbuttons">
+            <svg class="dots" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
         </div>
-
-        <div class="searchband">
-            <form action="/form/submit" method="GET">
-                <input  class="search"  type="text" name="text" placeholder="">
-                <svg class="equis"  focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
-                <hr class="verticallinesearch" size="30">
-                <svg id="glassblue" style="color: #4285f4;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path  style="color: #4285f4;"  d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-            </form>
-            </div>    
-
-        <div class="toprightbuttons">
-        <svg class="dots" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
-    </div>
-
-    <div id="sign">
-        <button class="signin"> <a class="signcolor" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ"> 
-            Sign in
-        </a> </button>
-    </div>
-    </nav>
-   
+    
+        <div id="sign">
+            <button class="signin"> <a class="signcolor" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ"> 
+                Sign in
+            </a> </button>
+        </div>
+        </nav>
 
    <div class="containerbuttons">
         <svg class="buttonsgeneral" id="glass" focusable="false" viewBox="0 0 24 24"><path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8"></path><path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path><path fill="#fbbc04" d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6"></path><path fill="#4285f4" d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59"></path></svg>
@@ -60,23 +61,60 @@
        </div>
     </div>
  
-
-
     <hr class="linedivider">
 
-    <main>
 
+
+
+
+    <div class="sticky">
+        <nav class="headernav">
+            <div class="logo">
+                <img src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png" alt="Googlelogo">
+            </div>
+    
+            <div class="searchband">
+                <form action="/form/submit" method="GET">
+                    <input  class="search"  type="text" name="text" placeholder="">
+                    <svg class="equis"  focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+                    <hr class="verticallinesearch" size="30">
+                    <img  class="glassblue" src="images/googleofficialglassblue.png" alt="">
+                </form>
+                </div>    
+    
+            <div class="toprightbuttons">
+            <svg class="dots" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+        </div>
+    
+        <div id="sign">
+            <button class="signin"> <a class="signcolor" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ"> 
+                Sign in
+            </a> </button>
+        </div>
+        </nav>
+
+         
+
+
+
+
+    
+        </div>
+
+
+  
+    <main>
         <h5>About 93,600,000 results (0.62 seconds)</h5>
         
-        <h4 class="toph4">christine-27.github.io › google-homepage</h4><a><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
 
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
+        <img class="arrowlink" id="arrowone" src="images/arrow.svg.png" alt="">
+        <h4 class="toph4">victor-lf.github.io › google-search-results</h4><a><h3>
+            build this webpage - GitHub Pages</h3></a>
+            <p>build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</p>
+        
+        <img class="arrowlink" id="arrowtwo" src="images/arrow.svg.png" alt="">
+        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> build this webpage - GitHub Pages</h3></a>
+            <p>With zero coding experience, artist building 180 webpages . ... days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage.</p>
 
         <h3 class="ask asktitle"> People also ask </h3>
         <svg id="arrowask1" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
@@ -92,79 +130,62 @@
         <h5 id="feedbackfirst">Feedback</h5>
         <hr class="askdivider finallinelogo">
 
+            <img class="arrowlink" id="arrowthree" src="images/arrow.svg.png" alt="">
+            <h4>www.websitebuilderexpert.com › building-websites</h4><a class="linksmain"><h3>How to Build a Website 2021 | A Step-by-Step Beginner's Guide</h3></a>
+            <p>Feb 1, 2021 — Anyone can build a website with the right tools - and the right guide! We'll show you how to make yours in just 9 steps.</p>
+        
+            <img class="arrowlink" id="arrowfour" src="images/arrow.svg.png" alt="">
+            <h4>websitesetup.org</h4><a class="linksmain"><h3>How to Create a Website: Step-by-Step Guide for Beginners ...</h3></a>
+            <p>Jan 25, 2021 — Learn how to make a website and set it up. This site contains different tutorials on how to build a website using WordPress, Joomla, Drupal ...</p>
+        
+            <img class="arrowlink" id="arrowfive" src="images/arrow.svg.png" alt="">
+            <h4>makeawebsitehub.com</h4><a class="linksmain"><h3>Make Your Own Website in Just 1 Hour With This Easy Guide ...</h3></a>
+            <p>This site teaches you how to make a website in just 3 easy to follow steps. There's also lots of really useful resources to help you build traffic in 2021.</p>
 
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
-        <h4>christine-27.github.io › google-homepage</h4><a class="linksmain"><h3> Websites with Wix - Choose from Designer Templates</h3></a>
-            <p>Building Websites Has Never Been Easier. Use Drag & Drop Tools to Add Site Elements. 
-                Go Live Online with Free Web Hosting. Manage any Changes with a Few Clicks. 
-                Get Started! Multiple payment methods. Free multilingual fonts. Social media compatible.</p>
+            <img class="arrowlink" id="arrowsix" src="images/arrow.svg.png" alt="">
+            <h4>www.pcmag.com › ... › Web Hosting</h4><a class="linksmain"><h3>How to Create a Website | PCMag</h3></a>
+            <p>If you need to quickly build a simple website, starting with a blogging service is a great way to go. Advertisement. The major player in the blog game is WordPress, ...</p>
+
+            <img class="arrowlink" id="arrowseven" src="images/arrow.svg.png" alt="">
+            <h4>www.squarespace.com</h4><a class="linksmain"><h3>Squarespace: Build a Website – Website Builder</h3></a>
+            <p>Squarespace is the all-in-one solution for anyone looking to create a beautiful website. Domains, eCommerce, hosting, galleries, analytics, and 24/7 support all ...</p>
+        
+            <img class="arrowlink" id="arroweigth" src="images/arrow.svg.png" alt="">
+            <h4>www.google.com › business › website-builder</h4><a class="linksmain"><h3>Free Website Builder For Your Business - Google My Business</h3></a>
+            <p>Let Google build your first website for free. We'll help you create a beautiful website to impress and engage new customers – and establish your business online.</p>
+
+            <img class="arrowlink" id="arrownine" src="images/arrow.svg.png" alt="">
+            <h4>www.codecademy.com › learn-how-to-build-websites</h4><a class="linksmain"><h3>Build a Website with HTML, CSS, and Github Pages ...</h3></a>
+            <p>One of the best ways to start coding is by building websites. Whether you want to tweak your business's site, hone your web development skills, or learn to ...</p>
+            
+            <img class="arrowlink" id="arrowten" src="images/arrow.svg.png" alt="">
+            <h4>www.weebly.com › ... </h4><a class="linksmain"><h3>Free Website Builder: Build a Free Website or Online Store ...</h3></a>
+            <p>Weebly's free website builder makes it easy to create a website, blog, or online store. Find customizable templates, domains, and easy-to-use tools for any type ...</p>
+        
         
         <h4 id="related">Related searches</h4>
         <svg class="tresbutton" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
         <hr class="askdivider">
         
-        
-        
-        <img class="logosrelated" src="images/wordpress_PNG26.png" alt="">
+        <img class="logosrelated" src="images/e12.webp" alt="">
         <svg id="arrow1" class="arrow"  focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
         
         <h4 id="website" >Website to use</h4>
       
         <hr class="askdivider">
-        <img class="logosrelated" src="images/wordpress_PNG26.png" alt="">
+        <img class="logosrelated  instagram" src="images/HTML5_Logo_512.png" alt="" >
         
         <svg id="arrow2" class="arrow"  focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
         <h4 id="websitedevs" >Website developer software</h4>
       
         <hr class="askdivider">
-        <img class="logosrelated" src="images/wordpress_PNG26.png" alt="">
+        <img class="logosrelated" src="images/cup.png" alt="">
         
         <svg id="arrow3" class="arrow"  focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
         <h4 id="webtools">Web design tools free</h4>
       
         <h5 id="feedback">Feedback</h5>
         <hr class="askdivider finallinelogo">
-
-
 
         <div class='some-page-wrapper'>
             <div class='row'>
@@ -200,7 +221,6 @@
             <span id="givemelt"> g </span>   <span id="greenl"> l</span>  <span id="laste"> e</span>  <span id="arrowfake">  >   </span>
         </h4>
 
-
     <div class="containernlinks">
         <a class="linknumbers" href="http://">1</a>
         <a class="linknumbers linkblue" href="http://">2</a>
@@ -218,7 +238,10 @@
 
     </main>
 
+    <img id="bulletpoint" src="images/bullettrue.png" alt="">
+
     <footer>  
+        
             <div class="location">
                 <span class="loc1">Fashion District, Los Angeles, CA</span>
                 <span>-</span>
