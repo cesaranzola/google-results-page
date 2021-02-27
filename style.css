@@ -108,6 +108,7 @@ input:hover {
     margin-left: 810px;
     width: 24px;
     height: 24px;
+    color: #4285F4;
 
 }
 
@@ -226,8 +227,9 @@ svg {
 
 h3 {
     padding-left: 190px;
-    font-size: 20px;
+    font-size: 21px;
     color: #1a0dab;
+
 }
 
 .toph4 {
@@ -248,6 +250,7 @@ h4 {
     color: #323335;
     margin-bottom: 5px;
     margin-top: 3px;
+    font-size: 16px;
 }
 
 
@@ -256,11 +259,11 @@ p {
     height: auto;
     margin-left: 190px;
     padding-bottom: 40px;
-    padding-top: 16px;
-    color: #2f3031;
+    padding-top: 5px;
+    color: #444444;
     line-height: 1.5em;
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .bottomp {
@@ -293,6 +296,13 @@ h5 {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+
+.asktitle {
+    font-size: 23px;
+    color: black;
+}
+
 .askdivider {
     width: 652px;
     margin-right: 888px;
@@ -305,11 +315,19 @@ h5 {
 
 .finalline {
     margin-bottom: 50px;
+    width: ;
 }
 
 .finallinelogo {
     margin-bottom: 50px;
     width: 580px;
+}
+
+#feedbackfirst {
+    all: unset;
+    position: absolute;
+    margin-left: 780px;
+    color: gray
 }
 
 #feedback {
@@ -574,8 +592,12 @@ h5 {
 }
 
 #nextbutton {
-    color: grey;
+    color: #4285F4;
     margin-left: 50px;
+}
+
+.linkblue {
+    color: #4285F4;
 }
 /*================NUMBER LINKS END==============*/
 
