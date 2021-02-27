@@ -95,7 +95,7 @@ a:hover {
     grid-template-columns: 60px 60px 60px 60px;
     position: absolute;
     top: 26px;
-    right: 40px;    
+    right: 40px;
 }
 
 .dots {
@@ -146,10 +146,12 @@ a:hover {
 
 
 
-/* a, a:hover, a:active, a:visited, a:focus {
-    text-decoration:none;
-} */
 
+
+
+
+
+/*==========HEADINGS & PARAGRAPHS START=========*/
 
 
 h3 {
@@ -159,7 +161,7 @@ h3 {
 }
 
 .toph4 {
-    margin-top: 30px;
+    margin-top: 27px;
     color: black;
     text-decoration: none;
     color: #323335; 
@@ -174,7 +176,8 @@ h3 {
 h4 {
     padding-left: 190px;
     color: #323335;
-    margin-bottom: 9px;
+    margin-bottom: 5px;
+    margin-top: 3px;
 }
 
 
@@ -196,16 +199,6 @@ p {
 }
 
 
-.topbuttondiv {
-    margin-left: 175px;
-    margin-top: 16px;
-}
-
-.topbuttons {
-    /* display: inline-block; */
-    list-style-type: none;
-    text-decoration: none;
-}
 
 svg {
     width: 16px;
@@ -216,10 +209,6 @@ svg {
     padding-bottom: -15px;
 }
 
-.special2b {
-    margin-left: 80px;
-    margin-right: 20px;
-}
 
 h5 {
     margin-left: 190px;
@@ -227,6 +216,15 @@ h5 {
     color: gray;
     font-size: 15.5px;
 }
+
+
+/*==========HEADINGS & PARAGRAPHS END=========*/
+
+
+
+
+
+
 
 /*================ASK START==============*/
 
@@ -350,11 +348,6 @@ h5 {
     
 }
 
-.leftbuttons:hover {
-    /* text-decoration: none; */
-}
-
-
 .rightbuttons {
     border-radius: 30px;
     padding-top: 16px;
@@ -371,11 +364,6 @@ h5 {
     font-weight: 600;
 
 }
-
-.rightbuttons:hover {
-    /* text-decoration: none; */
-}
-
 
 .textbut {
     margin-left: 30px;
@@ -414,9 +402,6 @@ h5 {
     width: 318px;
     margin-left: 12px;
   }
-
-
-
 /*================BUTTONSGLASS END==============*/
 
 
@@ -424,7 +409,6 @@ h5 {
 
 
 /*================GOOGLE LONG START==============*/
-
 .googlelong {
     font-size: 38px;
     margin-left: 200px;
@@ -469,14 +453,12 @@ h5 {
     margin-left: 9px;
     margin-bottom: -10px;
 }
-
 /*================GOOGLE LONG END==============*/
 
 
 
 
-/*================NUMBER LINKS==============*/
-
+/*================NUMBER LINKS START==============*/
 .containernlinks {
     margin-left: 425px;
     margin-bottom: 20px;
@@ -498,20 +480,12 @@ h5 {
     color: grey;
     margin-left: 50px;
 }
-
-
-
-/*================NUMBER LINKS==============*/
-
-
-
-
+/*================NUMBER LINKS END==============*/
 
 
 
 
 /*=================FOOTER ELEMENTS START================= */
-
 .loc1 {
     font-weight: bold;
     color: rgb(95, 95, 95);
@@ -564,5 +538,4 @@ footer {
     text-decoration: none;
     color: rgb(71, 71, 71);
 }
-
-
+/*=================FOOTER ELEMENTS END================= */
