@@ -52,9 +52,9 @@ table {
     width: 96px;
     height: 34px;
     margin-top: 25px;
-    margin-left: 20px;
-    
+    margin-left: 20px;  
 }
+
 
 /*==========LOGO END=========*/
 
@@ -63,7 +63,7 @@ table {
 
 .search {
     display: flex;
-    width: 646px;
+    width: 692px;
     height: 44px;
     border-radius: 30px;
     border: 1px solid rgb(223, 223, 223);
@@ -81,6 +81,34 @@ input:hover {
     border: 1px solid rgb(218, 218, 218);
     box-shadow: 0 0 11px rgb(228, 228, 228);
     
+}
+
+
+.equis {
+    position: absolute;
+    top: 22px;
+    margin-left: 763px;
+    width: 24px;
+    height: 44px; 
+    opacity: 0.5; 
+}
+
+
+.verticallinesearch {
+    position: absolute;
+    top: 20px;
+    margin-left: 800px;
+    width: 0.000001px;
+    opacity: 0.1;
+}
+
+#glassblue {
+    position: absolute;
+    top: 33px;
+    margin-left: 810px;
+    width: 24px;
+    height: 24px;
+
 }
 
 /*==========END OF SEARCH BAND=========*/
@@ -102,7 +130,7 @@ a:hover {
     width: 24px;
     height: 24px;
     position: absolute;
-    top: -7px;
+    top: 7px;
     right: 103px;
     fill: rgb(95, 95, 95);
 }
@@ -142,6 +170,48 @@ a:hover {
 }
 
 /*==========HORIZONTAL LINE ENDD=========*/
+
+
+
+
+/*==========SEARCH BUTTONS START=========*/
+
+.containerbuttons {
+    margin-left: 159px;
+    margin-top: 28px;
+}
+
+svg {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.buttonsgeneral {
+    margin-top: -3px;
+    margin-left: 20px;   
+}
+
+.linksbuttons {
+    list-style-type: none;
+    text-decoration: none;
+    color: grey;
+}
+
+.containergeneralbut {
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.nakedbuttons {
+    margin-right: 20px;
+   
+}
+
+/*==========SEARCH BUTTONS END=========*/
+
+
+
 
 
 
@@ -197,18 +267,6 @@ p {
     margin-top: 7px;
     width: 1200px;
 }
-
-
-
-svg {
-    width: 16px;
-    height: 16px;
-    padding-right: 3px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: -15px;
-}
-
 
 h5 {
     margin-left: 190px;
