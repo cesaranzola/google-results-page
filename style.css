@@ -307,6 +307,18 @@ h5 {
     margin-bottom: 50px;
 }
 
+.finallinelogo {
+    margin-bottom: 50px;
+    width: 580px;
+}
+
+#feedback {
+    all: unset;
+    position: absolute;
+    margin-left: 530px;
+    color: gray;
+}
+
 
 #arrowask1 {
     position: absolute;
@@ -356,6 +368,7 @@ h5 {
     position: absolute;
     margin-left: 570px;
     margin-top: 13px;
+    opacity: 0.5;
 }
 
 #arrow2 {
@@ -365,6 +378,7 @@ h5 {
     position: absolute;
     margin-left: 570px;
     margin-top: 13px;
+    opacity: 0.5;
 }
 
 #arrow3 {
@@ -374,6 +388,7 @@ h5 {
     position: absolute;
     margin-left: 570px;
     margin-top: 13px;
+    opacity: 0.5;
 }
 
 .logosrelated {
@@ -400,6 +415,15 @@ h5 {
     margin-top: 25px;
 }
 
+.glassbottom {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 16px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
 /*================THREE LOGOS END==============*/
 
 
@@ -408,8 +432,6 @@ h5 {
 
 .leftbuttons {
     border-radius: 30px;
-    /* background-image: url("data:image/svg+xml,%3Csvg%20fill%3D%22%23cccccc%22%20class%3D%22glass%22%20focusable%3D%22false%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2050%2050%22%3E%3Cpath%20d%3D%22M15.5%2014h-.79l-.28-.27A6.471%206.471%200%200%200%2016%209.5%206.5%206.5%200%201%200%209.5%2016c1.61%200%203.09-.59%204.23-1.57l.27.28v.79l5%204.99L20.49%2019l-4.99-5zm-6%200C7.01%2014%205%2011.99%205%209.5S7.01%205%209.5%205%2014%207.01%2014%209.5%2011.99%2014%209.5%2014z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
-    background-repeat: no-repeat; */
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 20px;
@@ -421,10 +443,7 @@ h5 {
     margin-bottom: 15px;
     background-color: #f1f3f4;
     color: #202124;
-    font-weight: 600;
-    
-    
-    
+    font-weight: 600;   
 }
 
 .rightbuttons {
@@ -445,7 +464,7 @@ h5 {
 }
 
 .textbut {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .some-page-wrapper {
@@ -471,7 +490,6 @@ h5 {
   }
   
   .blue-column {
-
     height: 250px;
     width: 318px; 
   }
